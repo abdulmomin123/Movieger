@@ -1,7 +1,9 @@
+import Link from 'next/link';
+
 const Home = () => {
   return (
     <div>
-      <h1>hi</h1>
+      <Link href="/movies">visit me</Link>
     </div>
   );
 };
