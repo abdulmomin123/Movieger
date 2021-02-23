@@ -10,6 +10,7 @@
   "dependencies": {
     "@apollo/client": "^3.3.11",
     "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.7",
     "apollo-link-rest": "^0.8.0-beta.0",
     "deepmerge": "^4.2.2",
     "graphql": "^15.5.0",
@@ -17,7 +18,8 @@
     "next": "10.0.7",
     "qs": "^6.9.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.31",
