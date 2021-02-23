@@ -72,4 +72,20 @@ export const GlobalStyles = createGlobalStyle`
       text-decoration: none;
       color: var(--color-primary);
    }
+
+   p {
+     font-size: 1.7rem
+   }
+
+   h1 {
+     font-size: 4rem
+   }
+
+   h2 {
+     font-size: 3rem 
+   }
+
+   h3 {
+     font-size: 2.2rem
+   }
 `;
