@@ -1,7 +1,7 @@
 import { ApolloProvider } from '@apollo/client';
 import { AppProps } from 'next/dist/next-server/lib/router/router';
 import Header from '../components/Header';
-import { GlobalStyles } from '../globalStyles';
+import { GlobalStyles } from '../styles/globalStyles';
 import { useApollo } from '../lib/apolloClient';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {

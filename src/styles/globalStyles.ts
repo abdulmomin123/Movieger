@@ -1,5 +1,5 @@
 import { createGlobalStyle, css } from 'styled-components';
-import { createMediaQuery } from './helpers';
+import { createMediaQuery } from '../helpers';
 
 // General styling of the app
 export const GlobalStyles = createGlobalStyle`
