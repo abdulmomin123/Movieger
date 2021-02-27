@@ -1,17 +1,22 @@
-import Image from 'next/image';
-import { HeaderContainer } from './Header.styles';
+import HeaderLinks from '../headerLinks/HeaderLinks';
+import Logo from '../logo/Logo';
+import QuickSearch from '../quickSearch/QuickSearch';
+import { HeaderContainer, HeaderText } from './Header.styles';
 
 const Header = () => {
   return (
     <HeaderContainer>
       {/* Logo */}
-      <Image src={'/moviger-logo.png'} width={'auto'} height={'auto'} />
+      <Logo />
 
       {/* Header text */}
-      <p>HD movies at the smallest file size</p>
+      <HeaderText>HD movies at the smallest file size</HeaderText>
 
       {/* Quick search */}
+      <QuickSearch />
+
       {/* Header links */}
+      <HeaderLinks />
     </HeaderContainer>
   );
 };

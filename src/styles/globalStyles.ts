@@ -66,6 +66,18 @@ ${css`
     -webkit-font-smoothing: antialiased;
   }
 
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
   img {
     display: block;
     width: 100%;

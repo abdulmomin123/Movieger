@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div>
+    <div style={{ paddingTop: '7rem' }}>
       <h1>home</h1>
     </div>
   );

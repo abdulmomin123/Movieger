@@ -1,13 +1,12 @@
 import styled from 'styled-components';
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.header`
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: space-space-between;
   align-items: center;
   height: 60px;
-  padding: 8px;
+  padding: 0 8rem;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -17,4 +16,9 @@ export const HeaderContainer = styled.div`
   backface-visibility: hidden;
   overflow: hidden;
   z-index: 1;
+`;
+
+export const HeaderText = styled.p`
+  font-size: 1.9rem;
+  margin: 0 auto 0 10rem;
 `;
